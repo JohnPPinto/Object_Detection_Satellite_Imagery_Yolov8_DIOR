@@ -1,0 +1,29 @@
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_setup.py:_flush():68] Configure stats pid to 1639
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_setup.py:_flush():68] Loading settings from /notebooks/wandb/settings
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-04-22 11:37:22,130 INFO    MainThread:1639 [wandb_init.py:_log_setup():476] Logging user logs to /notebooks/wandb/run-20230422_113722-20u7h0bj/logs/debug.log
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:_log_setup():477] Logging internal logs to /notebooks/wandb/run-20230422_113722-20u7h0bj/logs/debug-internal.log
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f8c300425e0>
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:init():516] calling init triggers
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8n.yaml', 'data': 'config.yaml', 'epochs': 50, 'patience': 50, 'batch': 16, 'imgsz': 800, 'save': True, 'save_period': -1, 'cache': False, 'device': None, 'workers': 8, 'project': None, 'name': 'yolov8n_epochs50_batch16', 'exist_ok': False, 'pretrained': False, 'optimizer': 'SGD', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'image_weights': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 0, 'resume': False, 'amp': True, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': None, 'iou': 0.7, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'show': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'vid_stride': 1, 'line_thickness': 3, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'boxes': True, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'cfg': None, 'v5loader': False, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/yolov8n_epochs50_batch16'}
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:init():569] starting backend
+2023-04-22 11:37:22,131 INFO    MainThread:1639 [wandb_init.py:init():573] setting up manager
+2023-04-22 11:37:22,135 INFO    MainThread:1639 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-22 11:37:22,136 INFO    MainThread:1639 [wandb_init.py:init():580] backend started and connected
+2023-04-22 11:37:22,147 INFO    MainThread:1639 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-04-22 11:37:22,177 INFO    MainThread:1639 [wandb_init.py:init():658] updated telemetry
+2023-04-22 11:37:22,216 INFO    MainThread:1639 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-04-22 11:37:22,639 INFO    MainThread:1639 [wandb_run.py:_on_init():2000] communicating current version
+2023-04-22 11:37:22,673 INFO    MainThread:1639 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-22 11:37:22,673 INFO    MainThread:1639 [wandb_init.py:init():728] starting run threads in backend
+2023-04-22 11:37:22,800 INFO    MainThread:1639 [wandb_run.py:_console_start():1980] atexit reg
+2023-04-22 11:37:22,800 INFO    MainThread:1639 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-04-22 11:37:22,801 INFO    MainThread:1639 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-04-22 11:37:22,801 INFO    MainThread:1639 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-04-22 11:37:22,806 INFO    MainThread:1639 [wandb_init.py:init():765] run started, returning control to user process
+2023-04-22 14:02:15,831 INFO    MainThread:1639 [wandb_init.py:_pause_backend():389] pausing backend
+2023-04-22 14:02:15,831 INFO    MainThread:1639 [jupyter.py:save_ipynb():378] not saving jupyter notebook

@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-22T11:37:22.686133",
+    "startedAt": "2023-04-22T11:37:22.123127",
+    "docker": null,
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "dior_object_detection_satellite_imagery_yolov8.ipynb",
+    "root": "/notebooks",
+    "git": {
+        "remote": "https://github.com/gradient-ai/PyTorch.git",
+        "commit": "d0ecbf76aac3ae9a65bc12d8ef8dbbf7ff5ecef7"
+    },
+    "email": null,
+    "host": "nm114bin6t",
+    "username": "root",
+    "executable": "/usr/local/bin/python3"
+}

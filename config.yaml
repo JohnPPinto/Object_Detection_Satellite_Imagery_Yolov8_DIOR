@@ -1,0 +1,27 @@
+# Path to my dataset
+path: 
+train: 'images/train'
+val: 'images/val'
+
+# Classes as per mentioned in the annotation
+names:
+  0: Expressway-Service-area
+  1: Expressway-toll-station
+  2: airplane
+  3: airport
+  4: baseballfield
+  5: basketballcourt
+  6: bridge
+  7: chimney
+  8: dam
+  9: golffield
+  10: groundtrackfield
+  11: harbor
+  12: overpass
+  13: ship
+  14: stadium
+  15: storagetank
+  16: tenniscourt
+  17: trainstation
+  18: vehicle
+  19: windmill 
