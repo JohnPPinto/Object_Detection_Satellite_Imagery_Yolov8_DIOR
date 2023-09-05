@@ -2,7 +2,7 @@
 Building a Yolov8n model from scratch and performing object detection in optical remote sensing images.
 
 ## Repo Structure
-* Complete code is in the notebook - [dior_object_detection_satellite_imagery_yolov8.ipynb](https://github.com/JohnPPinto/Object_Detection_Satellite_Imagery_Yolov8_DIOR/blob/main/dior_object_detection_satellite_imagery_yolov8.ipynb')
+* Complete code is in the notebook - [dior_object_detection_satellite_imagery_yolov8.ipynb](https://github.com/JohnPPinto/Object_Detection_Satellite_Imagery_Yolov8_DIOR/blob/main/dior_object_detection_satellite_imagery_yolov8.ipynb)
 * All the model results are in the "runs" directory.
 
 ## Introduction
